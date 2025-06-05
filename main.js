@@ -11,6 +11,6 @@ function calcular(){
     for(let columnas;i<columna;i++){
         columnas+=1
     }
-    resultado=columna && fila
+    resultado.push(fila + columna);
 }
 
