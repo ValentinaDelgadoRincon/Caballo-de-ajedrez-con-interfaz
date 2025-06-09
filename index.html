@@ -7,23 +7,22 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="./main.js"></script>
 
     <h1>CABALLO DE AJEDREZ</h1>
 
     <section class="contenido">
 
-        <label for="fila" id="fila">Fila:</label>
+        <label for="fila">Fila:</label>
         <input type="number" id="fila" min="1" max="8" value="1">
 
-        <label for="columna" id="columna">Columna:</label>
-        <input type="number" id="fila" min="1" max="8" value="1">
+        <label for="columna">Columna:</label>
+        <input type="number" id="columna" min="1" max="8" value="1">
 
-        <button id="boton" type="submit">Calcular Movimientos</button>
+        <button onclick="calcular()">Calcular Movimientos</button>
 
-        <p>El caballo puede saltar de 1  1 a:</p>  
+        <p id="resultado"></p>  
 
-
+         <script src="./main.js"></script>
     </section>
 
 

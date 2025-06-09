@@ -1,6 +1,10 @@
 h1{
     text-align: center;
+    color:darkblue
 }
 .contenido{
     text-align: center;
+}
+#resultado {
+  white-space: pre-line;
 }
